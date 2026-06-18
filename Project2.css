@@ -1,0 +1,55 @@
+html{
+    background-color:rgb(19, 18, 18);
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 300px 300px;
+    column-gap: 30px;
+    row-gap: 50px;
+    margin: 15px;
+    padding: 10px;
+}
+.topRow{
+    grid-column: span 2;
+}
+.bottomRow{
+    grid-column: span 3;
+}
+.content div{
+    color: white;
+    background-color: rgb(39, 39, 39);
+    border-color: silver;
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 50px;
+}
+.topRow .inputbox{
+    border: none;
+    outline: none;
+}
+.inputbox input{
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+.inputbox select{
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+h1{
+    color: rgb(253, 251, 221);
+    text-align: center;
+    padding: 5px;
+}
+#link{
+    background-color: rgb(53, 52, 52);
+    text-align: center;
+    border-style: solid;
+    border-color: silver;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    width: 40px;
+}
